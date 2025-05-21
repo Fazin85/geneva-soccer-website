@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geneva Soccer League - Youth Soccer in Geneva, Ohio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Geneva Soccer Logo" />
+                <h1>Geneva Soccer</h1>
+            </div>
+            
+            <button class="nav-toggle">☰</button>
+            
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#youth-soccer" class="dropdown-toggle">Youth Soccer</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="rec-soccer.html">Rec</a></li>
+                            <li><a href="travel-soccer.html">Travel</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#about" class="dropdown-toggle">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#board">Board</a></li>
+                            <li><a href="#mission">Mission</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#coaches">Coaches</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#rules-resources" class="dropdown-toggle">Rules & Resources</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#rec-rules">Rec Rules</a></li>
+                            <li><a href="#travel-rules">Travel Rules</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Welcome to Geneva Soccer League</h2>
+            <p>Promoting, teaching, and enjoying the game of soccer for youth in Geneva, Ohio</p>
+            <div class="hero-buttons">
+                <a href="https://system.gotsport.com/programs/M67941381?reg_role=player" class="btn btn-primary">Register for Rec Soccer</a>
+                <a href="https://system.gotsport.com/programs/T67941382?reg_role=player" class="btn btn-secondary">Register for Travel Soccer</a>
+            </div>
+            <a href="#learn-more" class="btn btn-outline">Learn More</a>
+        </div>
+    </section>
+    
+    <section class="section" id="news">
+        <div class="container">
+            <div class="alert alert-info">
+                <strong>NEWS & UPDATES:</strong> Youth Soccer Sign-ups are now open for Spring 2025! Registration is available for both Recreational and Travel programs.
+            </div>
+            
+            <div class="section-title">
+                <h2>Our Programs</h2>
+            </div>
+            
+            <div class="card-container">
+                <div class="card" id="rec-soccer">
+                    <div class="card-img" style="background-image: url('images/youth-soccer.jpg');"></div>
+                    <div class="card-content">
+                        <h3>Recreational Soccer</h3>
+                        <p>Our recreational program is a non-competitive, in-house league designed to teach basic soccer skills while having fun and staying active. Perfect for beginners and players of all skill levels.</p>
+                        <div class="card-buttons">
+                            <a href="https://system.gotsport.com/programs/M67941381?reg_role=player" class="btn btn-primary">Register for Rec</a>
+                            <a href="#rec-rules" class="btn btn-outline-primary">Program Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card" id="travel-soccer">
+                    <div class="card-img" style="background-image: url('images/travel-team.jpg');"></div>
+                    <div class="card-content">
+                        <h3>Travel Soccer</h3>
+                        <p>For more competitive players, our travel teams compete against other local communities in the area. Players develop advanced skills through structured training and competitive matches.</p>
+                        <div class="card-buttons">
+                            <a href="https://system.gotsport.com/programs/T67941382?reg_role=player" class="btn btn-primary">Register for Travel</a>
+                            <a href="#travel-rules" class="btn btn-outline-primary">Program Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-img" style="background-image: url('images/coaching.jpg');"></div>
+                    <div class="card-content">
+                        <h3>Volunteer Coaching</h3>
+                        <p>We're always looking for volunteer coaches! No experience necessary - just a passion for helping kids learn and grow. Training and resources are provided.</p>
+                        <div class="card-buttons">
+                            <a href="#volunteer" class="btn btn-primary">Coach Application</a>
+                            <a href="#faq" class="btn btn-outline-primary">Coaching FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section" id="youth-soccer">
+        <div class="container">
+            <div class="section-title">
+                <h2>Youth Soccer Programs</h2>
+            </div>
+            
+            <div class="program-tabs">
+                <div class="tab-nav">
+                    <button class="tab-btn active" data-target="rec-program">Recreational Program</button>
+                    <button class="tab-btn" data-target="travel-program">Travel Program</button>
+                </div>
+                
+                <div id="rec-program" class="tab-content active">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Recreational Soccer - Spring 2025 Registration Now Open!</h3>
+                            <p>Our recreational program is designed for players of all skill levels looking to learn the game in a fun, supportive environment. Games are played locally in Geneva with an emphasis on skill development and enjoying the sport.</p>
+                            <h4>Program Highlights:</h4>
+                            <ul>
+                                <li>Ages 4-14 welcome</li>
+                                <li>Weekly practices and weekend games</li>
+                                <li>Equal playing time for all participants</li>
+                                <li>Focus on fundamental skills and teamwork</li>
+                                <li>All games played in Geneva</li>
+                            </ul>
+                            <p>We are always in need of Recreational Soccer Coaches. If you are interested in coaching a team, please sign up when registering your child.</p>
+                            <a href="https://system.gotsport.com/programs/M67941381?reg_role=player" class="btn btn-primary">Register for Recreational Soccer</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="travel-program" class="tab-content">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3>Travel Soccer - Spring 2025 Registration Now Open!</h3>
+                            <p>Our travel program offers a more competitive experience for players looking to advance their skills. Teams compete against other communities throughout the region, with professionally developed training sessions.</p>
+                            <h4>Program Highlights:</h4>
+                            <ul>
+                                <li>U8-U14 age divisions</li>
+                                <li>Twice weekly practices with certified coaches</li>
+                                <li>Weekend games throughout the region</li>
+                                <li>Focus on advanced skills and tactical development</li>
+                                <li>Tryouts may be required depending on registration numbers</li>
+                            </ul>
+                            <p>Travel teams require a higher level of commitment from both players and parents, including possible travel to away games up to 1 hour from Geneva.</p>
+                            <a href="https://system.gotsport.com/programs/T67941382?reg_role=player" class="btn btn-primary">Register for Travel Soccer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Parents & Players Say</h2>
+            </div>
+            
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <img src="images/parent.jpg" alt="Parent" />
+                    <p>"My child has grown so much through Geneva Soccer. The coaches are amazing and supportive, creating a positive environment for all kids."</p>
+                    <div class="testimonial-name">Sarah Johnson</div>
+                </div>
+                
+                <div class="testimonial">
+                    <img src="images/player.jpg" alt="Player" />
+                    <p>"I've made great friends and learned so many skills. Soccer is now my favorite sport and I look forward to practice every week!"</p>
+                    <div class="testimonial-name">Michael, Age 10</div>
+                </div>
+                
+                <div class="testimonial">
+                    <img src="images/coach.jpg" alt="Coach" />
+                    <p>"Volunteering as a coach has been incredibly rewarding. Seeing the kids improve week after week makes all the effort worthwhile."</p>
+                    <div class="testimonial-name">Coach David</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section cta" id="registration">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Join Geneva Soccer?</h2>
+                <p>Register today for our Spring 2025 season and be part of our growing soccer community!</p>
+                <div class="cta-buttons">
+                    <a href="https://system.gotsport.com/programs/M67941381?reg_role=player" class="btn btn-secondary">Register for Recreational</a>
+                    <a href="https://system.gotsport.com/programs/T67941382?reg_role=player" class="btn btn-secondary">Register for Travel</a>
+                </div>
+                <p class="cta-caption">Not sure which program is right for your child? <a href="#faq" class="cta-link">Check our FAQ</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Geneva Soccer</h3>
+                    <p>Our mission is to promote, teach, and enjoy the game of soccer while developing teamwork and accountability in young athletes.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#rec-soccer">Rec Soccer</a></li>
+                        <li><a href="#travel-soccer">Travel Soccer</a></li>
+                        <li><a href="#board">Board</a></li>
+                        <li><a href="#mission">Mission</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Email: info@genevasoccer.org</li>
+                        <li>Address: PO Box 574 Geneva Ohio 44041</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                        <a href="#" aria-label="Instagram">i</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2025 Geneva Soccer League. All rights reserved. | A nonprofit organization dedicated to creating a safe, fun, and positive soccer culture.
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

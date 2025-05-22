@@ -9,12 +9,12 @@ const footerHTML = `
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#rec-soccer">Rec Soccer</a></li>
-                        <li><a href="#travel-soccer">Travel Soccer</a></li>
-                        <li><a href="#board">Board</a></li>
-                        <li><a href="#mission">Mission</a></li>
-                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rec-soccer.html">Rec Soccer</a></li>
+                        <li><a href="travel-soccer.html">Travel Soccer</a></li>
+                        <li><a href="board.html">Board</a></li>
+                        <li><a href="mission.html">Mission</a></li>
+                        <li><a href="faq">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

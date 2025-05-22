@@ -96,38 +96,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Add fade-in animation for elements when they come into view
-const fadeElements = document.querySelectorAll('.card, .testimonial');
-
-const fadeInObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('fade-in');
-            fadeInObserver.unobserve(entry.target);
-        }
-    });
-}, {
-    threshold: 0.1
-});
-
-fadeElements.forEach(element => {
-    element.style.opacity = '0';
-    element.style.transition = 'opacity 0.5s ease-in-out';
-    fadeInObserver.observe(element);
-});
-
-// Add class to elements when they intersect
-document.addEventListener('DOMContentLoaded', () => {
-    fadeElements.forEach(element => {
-        if (element.getBoundingClientRect().top < window.innerHeight) {
-            element.classList.add('fade-in');
-            element.style.opacity = '1';
-        }
-    });
-});
-
-// Add to the end of js/main.js
-
 // Tab functionality for program sections
 document.addEventListener('DOMContentLoaded', function() {
     const tabBtns = document.querySelectorAll('.tab-btn');

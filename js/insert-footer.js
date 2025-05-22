@@ -20,7 +20,7 @@ const footerHTML = `
                 <div class="footer-section">
                     <h3>Contact Us</h3>
                     <ul>
-                        <li>Email: info@genevasoccer.org</li>
+                        <li>Email: genevatravelsoccer@gmail.com</li>
                         <li>Address: PO Box 574 Geneva Ohio 44041</li>
                     </ul>
                 </div>

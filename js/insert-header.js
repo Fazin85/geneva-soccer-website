@@ -15,8 +15,8 @@ const headerHTML = `
                     <li class="dropdown">
                         <a href="#youth-soccer" class="dropdown-toggle">Youth Soccer</a>
                         <ul class="dropdown-menu">
-                            <li><a href="rec-soccer.html">Rec</a></li>
-                            <li><a href="travel-soccer.html">Travel</a></li>
+                            <li><a href="rec-soccer.html">Recreational Soccer</a></li>
+                            <li><a href="travel-soccer.html">Travel Soccer</a></li>
                         </ul>
                     </li>
                     
@@ -28,8 +28,13 @@ const headerHTML = `
                         </ul>
                     </li>
                     
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#coaches">Coaches</a></li>
+                    <li class="dropdown">
+                        <a href="#faq" class="dropdown-toggle">FAQ</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="rec-faq.html">Recreational Soccer FAQ</a></li>
+                            <li><a href="travel-faq.html">Travel Soccer FAQ</a></li>
+                        </ul>
+                    </li>
                     
                     <li class="dropdown">
                         <a href="#rules-resources" class="dropdown-toggle">Rules & Resources</a>

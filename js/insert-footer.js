@@ -14,7 +14,7 @@ const footerHTML = `
                         <li><a href="travel-soccer.html">Travel Soccer</a></li>
                         <li><a href="board.html">Board</a></li>
                         <li><a href="mission.html">Mission</a></li>
-                        <li><a href="faq">FAQ</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

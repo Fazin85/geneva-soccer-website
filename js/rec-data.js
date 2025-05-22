@@ -2,6 +2,9 @@ const recSignupLink = "https://system.gotsport.com/programs/M67941381?reg_role=p
 const price = ""
 
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("register-link").href = recSignupLink;
-    document.getElementById("faq-link").href = "new-faq.html";
+    const newLink = recSignupLink;
+
+    document.querySelectorAll('[data-role="rec-register-button"]').forEach(button => {
+        button.href = newLink;  // Updates the href of each matching button
+    });
 });

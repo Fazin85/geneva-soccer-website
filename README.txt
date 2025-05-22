@@ -1,0 +1,1 @@
+to update the link for rec signups go to js/rec-data.js and set recSignupLink to the new url

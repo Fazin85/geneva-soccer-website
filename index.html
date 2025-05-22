@@ -55,10 +55,10 @@
     
     <section class="hero" id="home">
         <div class="hero-content">
-            <h2>Welcome to Geneva Soccer League</h2>
+            <h2>Welcome to the Geneva Soccer League</h2>
             <p>Promoting, teaching, and enjoying the game of soccer for youth in Geneva, Ohio</p>
             <div class="hero-buttons">
-                <a href="https://system.gotsport.com/programs/M67941381?reg_role=player" class="btn btn-primary">Register for Rec Soccer</a>
+                <a class="btn btn-primary" data-role="rec-register-button">Register for Rec Soccer</a>
                 <a href="https://system.gotsport.com/programs/T67941382?reg_role=player" class="btn btn-secondary">Register for Travel Soccer</a>
             </div>
             <a href="#learn-more" class="btn btn-outline">Learn More</a>
@@ -82,7 +82,7 @@
                         <h3>Recreational Soccer</h3>
                         <p>Our recreational program is a non-competitive, in-house league designed to teach basic soccer skills while having fun and staying active. Perfect for beginners and players of all skill levels.</p>
                         <div class="card-buttons">
-                            <a href="https://system.gotsport.com/programs/M67941381?reg_role=player" class="btn btn-primary">Register for Rec</a>
+                            <a class="btn btn-primary" data-role="rec-register-button">Register for Rec</a>
                             <a href="#rec-rules" class="btn btn-outline-primary">Program Details</a>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
                 <h2>Ready to Join Geneva Soccer?</h2>
                 <p>Register today for our Spring 2025 season and be part of our growing soccer community!</p>
                 <div class="cta-buttons">
-                    <a href="https://system.gotsport.com/programs/M67941381?reg_role=player" class="btn btn-secondary">Register for Recreational</a>
+                    <a class="btn btn-secondary" data-role="rec-register-button">Register for Recreational</a>
                     <a href="https://system.gotsport.com/programs/T67941382?reg_role=player" class="btn btn-secondary">Register for Travel</a>
                 </div>
                 <p class="cta-caption">Not sure which program is right for your child? <a href="#faq" class="cta-link">Check our FAQ</a></p>
@@ -210,50 +210,11 @@
         </div>
     </section>
     
-    <footer id="contact">
-        <div class="container">
-            <div class="footer-container">
-                <div class="footer-section">
-                    <h3>Geneva Soccer</h3>
-                    <p>Our mission is to promote, teach, and enjoy the game of soccer while developing teamwork and accountability in young athletes.</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#rec-soccer">Rec Soccer</a></li>
-                        <li><a href="#travel-soccer">Travel Soccer</a></li>
-                        <li><a href="#board">Board</a></li>
-                        <li><a href="#mission">Mission</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Contact Us</h3>
-                    <ul>
-                        <li>Email: info@genevasoccer.org</li>
-                        <li>Address: PO Box 574 Geneva Ohio 44041</li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Follow Us</h3>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook">f</a>
-                        <a href="#" aria-label="Twitter">t</a>
-                        <a href="#" aria-label="Instagram">i</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="copyright">
-                &copy; 2025 Geneva Soccer League. All rights reserved. | A nonprofit organization dedicated to creating a safe, fun, and positive soccer culture.
-            </div>
-        </div>
-    </footer>
+    <!--add the footer-->
+    <div id="footer-container"></div>
+    <script src="js/insert-footer.js"></script>
     
     <script src="js/main.js"></script>
+    <script src="js/rec-data.js"></script>
 </body>
 </html>

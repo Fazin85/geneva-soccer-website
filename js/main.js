@@ -125,3 +125,56 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+// Add to the end of js/main.js
+
+// Tab functionality for program sections
+document.addEventListener('DOMContentLoaded', function() {
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+    
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const targetId = this.getAttribute('data-target');
+            
+            // Remove active class from all tabs and contents
+            tabBtns.forEach(tab => tab.classList.remove('active'));
+            tabContents.forEach(content => content.classList.remove('active'));
+            
+            // Add active class to clicked tab and corresponding content
+            this.classList.add('active');
+            const targetContent = document.getElementById(targetId);
+            if (targetContent) {
+                targetContent.classList.add('active');
+            }
+        });
+    });
+    
+    // Ensure mobile navigation works properly
+    function handleMobileNavigation() {
+        const navToggle = document.querySelector('.nav-toggle');
+        const mainNav = document.getElementById('main-nav');
+        
+        if (navToggle && mainNav) {
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!navToggle.contains(e.target) && !mainNav.contains(e.target)) {
+                    mainNav.classList.remove('active');
+                }
+            });
+            
+            // Close mobile menu when window is resized to desktop
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    mainNav.classList.remove('active');
+                    // Close all dropdowns
+                    document.querySelectorAll('.dropdown').forEach(dropdown => {
+                        dropdown.classList.remove('dropdown-active');
+                    });
+                }
+            });
+        }
+    }
+    
+    handleMobileNavigation();
+});

@@ -109,15 +109,17 @@
     .board-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .responsibilities-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .meeting-info {
         grid-template-columns: 1fr;
     }
-}.values-grid {
+}
+
+.values-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
@@ -166,7 +168,9 @@
     .values-grid {
         grid-template-columns: 1fr;
     }
-}/* Page-specific styles */
+}
+
+/* Page-specific styles */
 .page-hero {
     background-color: var(--primary);
     color: white;
@@ -302,31 +306,33 @@
     .page-hero h1 {
         font-size: 2rem;
     }
-    
+
     .page-content {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .two-column {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-    
+
     .image-gallery {
         grid-template-columns: 1fr;
     }
-    
+
     .register-buttons {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .btn-large {
         width: 100%;
         max-width: 300px;
     }
-}/* Program tabs */
+}
+
+/* Program tabs */
 .program-tabs {
     margin-top: 2rem;
 }
@@ -378,8 +384,13 @@
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .tab-content h4 {
@@ -390,7 +401,9 @@
 .tab-content ul {
     margin-bottom: 1.5rem;
     padding-left: 1.5rem;
-}.card-buttons {
+}
+
+.card-buttons {
     display: flex;
     gap: 0.75rem;
     flex-wrap: wrap;
@@ -406,7 +419,9 @@
     background-color: rgba(211, 47, 47, 0.05);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}.btn-outline {
+}
+
+.btn-outline {
     background-color: transparent;
     color: white;
     border: 2px solid white;
@@ -416,7 +431,9 @@
     background-color: rgba(255, 255, 255, 0.1);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}/* 
+}
+
+/* 
  * Geneva Soccer Website
  * Main Stylesheet
  */
@@ -891,7 +908,7 @@ footer {
     .nav-toggle {
         display: block;
     }
-    
+
     nav {
         position: fixed;
         top: 70px;
@@ -903,20 +920,20 @@ footer {
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
         overflow-y: auto;
     }
-    
+
     nav.active {
         left: 0;
     }
-    
+
     nav ul {
         flex-direction: column;
         padding: 2rem;
     }
-    
+
     nav ul li {
         margin: 0 0 1.5rem 0;
     }
-    
+
     /* Mobile dropdown */
     .dropdown-menu {
         position: static;
@@ -928,32 +945,32 @@ footer {
         margin-top: 0.5rem;
         margin-left: 1rem;
     }
-    
+
     .dropdown-toggle::after {
         margin-left: auto;
     }
-    
+
     .dropdown-toggle {
         display: flex;
         justify-content: space-between;
     }
-    
+
     .dropdown-active .dropdown-menu {
         display: block;
     }
-    
+
     .hero {
         height: 400px;
     }
-    
+
     .hero h2 {
         font-size: 2rem;
     }
-    
+
     .section {
         padding: 3rem 0;
     }
-    
+
     .section-title h2 {
         font-size: 1.8rem;
     }
@@ -963,19 +980,19 @@ footer {
     .logo h1 {
         font-size: 1.2rem;
     }
-    
+
     .hero {
         height: 350px;
     }
-    
+
     .hero h2 {
         font-size: 1.8rem;
     }
-    
+
     .hero p {
         font-size: 1rem;
     }
-    
+
     .btn {
         padding: 0.6rem 1.2rem;
     }

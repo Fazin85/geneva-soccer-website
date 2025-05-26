@@ -611,7 +611,7 @@ nav ul li a:hover {
 
 /* Hero section */
 .hero {
-    height: 500px;
+    height: 300px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
@@ -985,7 +985,7 @@ footer {
     }
 
     .hero {
-        height: 400px;
+        height: 200px;
     }
 
     .hero h2 {
@@ -1007,7 +1007,7 @@ footer {
     }
 
     .hero {
-        height: 350px;
+        height: 150px;
     }
 
     .hero h2 {
@@ -1070,7 +1070,7 @@ footer {
 /* Enhanced mobile hero section */
 @media (max-width: 768px) {
     .hero {
-        height: 450px;
+        height: 350px;
         padding: 2rem 0;
     }
     
@@ -1222,7 +1222,7 @@ footer {
     }
     
     .hero {
-        height: 400px;
+        height: 300px;
     }
     
     .hero h2 {
@@ -1385,7 +1385,7 @@ footer {
 /* Hero section mobile improvements */
 @media (max-width: 768px) {
     .hero {
-        height: 400px;
+        height: 300px;
         padding: 2rem 1rem;
     }
     
@@ -1424,7 +1424,7 @@ footer {
 
 @media (max-width: 480px) {
     .hero {
-        height: 350px;
+        height: 250px;
         padding: 1.5rem 0.75rem;
     }
     
@@ -1644,7 +1644,7 @@ footer {
 /* Hero section mobile improvements */
 @media (max-width: 768px) {
     .hero {
-        height: 400px;
+        height: 300px;
         padding: 2rem 1rem;
         text-align: center;
     }
@@ -1697,7 +1697,7 @@ footer {
 
 @media (max-width: 480px) {
     .hero {
-        height: 350px;
+        height: 250px;
         padding: 1.5rem 0.75rem;
     }
     
@@ -1931,7 +1931,7 @@ footer {
 /* Hero section mobile improvements */
 @media (max-width: 768px) {
     .hero {
-        height: 400px;
+        height: 300px;
         padding: 2rem 1rem;
         text-align: center;
     }
@@ -1984,7 +1984,7 @@ footer {
 
 @media (max-width: 480px) {
     .hero {
-        height: 350px;
+        height: 250px;
         padding: 1.5rem 0.75rem;
     }
     
@@ -2323,7 +2323,7 @@ img {
 /* Hero section mobile improvements */
 @media (max-width: 768px) {
     .hero {
-        height: 400px;
+        height: 300px;
         padding: 2rem 1rem;
         text-align: center;
     }
@@ -2376,7 +2376,7 @@ img {
 
 @media (max-width: 480px) {
     .hero {
-        height: 350px;
+        height: 250px;
         padding: 1.5rem 0.75rem;
     }
     

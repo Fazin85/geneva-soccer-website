@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Divisions - Geneva Soccer League</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--add the header-->
+     <div id="header-container"></div>
+     <script src="js/insert-header.js"></script>
+    
+    <section class="page-hero">
+        <div class="container">
+            <h1>Choose Your Age Division</h1>
+            <p>Find the right soccer program for your child's age group</p>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="content-text" style="text-align: center; margin-bottom: 3rem;">
+                    <h2>Age Group Guidelines</h2>
+                    <p>Age divisions are determined by the player's age on December 31st of the current year. Select your child's age group below to learn more about their division and register.</p>
+                </div>
+            </div>
+            
+            <div class="card-container">
+                <div class="card age-division-card">
+                    <div class="card-content">
+                        <h3>U5 Division</h3>
+                        <div class="age-badge">Ages 4-5</div>
+                        <div class="card-buttons">
+                            <a href="rec-rules-u5.html" class="btn btn-primary">View U5 Rules</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card age-division-card">
+                    <div class="card-content">
+                        <h3>U7 Division</h3>
+                        <div class="age-badge">Ages 6-7</div>
+                        <div class="card-buttons">
+                            <a href="rec-rules-u7.html" class="btn btn-primary">View U7 Rules</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card age-division-card">
+                    <div class="card-content">
+                        <h3>U9 Division</h3>
+                        <div class="age-badge">Ages 8-9</div>
+                        <div class="card-buttons">
+                            <a href="rec-rules-u9.html" class="btn btn-primary">View U9 Rules</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card age-division-card">
+                    <div class="card-content">
+                        <h3>U13 Division</h3>
+                        <div class="age-badge">Ages 10-13</div>
+                        <div class="card-buttons">
+                            <a href="rec-rules-u13.html" class="btn btn-primary">View U13 Rules</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-section">
+                <h2>Not Sure Which Division?</h2>
+                <div class="info-box">
+                    <h3>Age Calculation</h3>
+                    <p>Player age divisions are based on the child's age as of <strong>December 31st of the current year</strong>.</p>
+                    <p><strong>Example:</strong> If your child turns 6 in November 2025, they should register for the U7 division for the 2025 season.</p>
+                </div>
+                
+                <div class="content-text" style="text-align: center; margin-top: 2rem;">
+                    <p>Still have questions about which age division is right for your child?</p>
+                    <div class="register-buttons">
+                        <a href="rec-faq.html" class="btn btn-primary">Check The Rec FAQ</a>
+                        <a href="index.html#contact" class="btn btn-outline-primary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--add the footer-->
+    <div id="footer-container"></div>
+    <script src="js/insert-footer.js"></script>
+    
+    <script src="js/main.js"></script>
+    <script src="js/rec-data.js"></script>
+    
+    <style>
+        .age-division-card {
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .age-division-card .card-content {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .age-badge {
+            background-color: var(--primary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin: 1rem 0;
+            font-size: 1.1rem;
+        }
+        
+        .age-division-card ul {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+            flex-grow: 1;
+        }
+        
+        .age-division-card ul li {
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+        
+        .card-buttons {
+            margin-top: auto;
+            padding-top: 1rem;
+        }
+    </style>
+</body>
+</html>

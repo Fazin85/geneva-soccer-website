@@ -39,8 +39,8 @@ const headerHTML = `
                     <li class="dropdown">
                         <a href="#rules-resources" class="dropdown-toggle">Rules & Resources</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#rec-rules">Rec Rules</a></li>
-                            <li><a href="#travel-rules">Travel Rules</a></li>
+                            <li><a href="age-division.html">Rec Rules</a></li>
+                            <li><a href="https://www.ohtsl.com/procedures.php">Travel Rules</a></li>
                         </ul>
                     </li>
                     

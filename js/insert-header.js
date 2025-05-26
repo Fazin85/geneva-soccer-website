@@ -33,6 +33,7 @@ const headerHTML = `
                         <ul class="dropdown-menu">
                             <li><a href="rec-faq.html">Recreational Soccer FAQ</a></li>
                             <li><a href="travel-faq.html">Travel Soccer FAQ</a></li>
+                            <li><a href="coaching-faq.html">Coaching FAQ</a></li>
                         </ul>
                     </li>
                     

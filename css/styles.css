@@ -18,8 +18,14 @@
 }
 
 .member-photo {
-    height: 300px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
     overflow: hidden;
+    border-radius: 50%;
+    flex-shrink: 0;
 }
 
 .member-photo img {
@@ -30,24 +36,39 @@
 
 .member-info {
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.member-details {
+    flex: 1;
 }
 
 .member-info h3 {
     color: var(--primary);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
     font-size: 1.3rem;
+    margin-top: 0;
 }
 
 .member-info h4 {
     color: var(--gray);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     font-weight: 600;
     font-size: 1rem;
+    margin-top: 0;
 }
 
 .member-info p {
     line-height: 1.6;
     margin-bottom: 0.75rem;
+    clear: both;
 }
 
 .responsibilities-grid {
@@ -109,13 +130,17 @@
     .board-grid {
         grid-template-columns: 1fr;
     }
-
-    .responsibilities-grid {
-        grid-template-columns: 1fr;
+    
+    .member-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-
-    .meeting-info {
-        grid-template-columns: 1fr;
+    
+    .member-photo {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 1rem;
     }
 }
 
